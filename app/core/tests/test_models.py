@@ -2,10 +2,9 @@
 Tests for models
 """
 
+from core.models import User
 from django.contrib.auth import get_user_model
 from django.test import TestCase
-
-from core.models import User
 
 
 class ModelTests(TestCase):
